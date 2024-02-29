@@ -47,7 +47,7 @@ void loop(void)
                 ndefRecord.getPayload(tmpBuf);
                 if (!wasNfcError)
                 {
-                    Serial.printf("%s\r\n", (char*) tmpBuf);
+                    Serial.printf("%s\r\n", (char*) (tmpBuf+2));
                     ledTagWasRead(DELAY_TAG_READ_MS);
                     delay(DELAY_AFTER_READ_MS);
                 }
