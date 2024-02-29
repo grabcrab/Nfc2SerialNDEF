@@ -6,6 +6,8 @@
 
 #include "leds.h"
 
+//comment #111 - github test
+
 PN532_I2C pn532_i2c(Wire);
 NfcAdapter nfc = NfcAdapter(pn532_i2c);
 bool wasNfcError = false;
@@ -47,7 +49,7 @@ void loop(void)
                 ndefRecord.getPayload(tmpBuf);
                 if (!wasNfcError)
                 {
-                    Serial.printf("%s\r\n", (char*) (tmpBuf+2));
+                    Serial.printf("%s\r\n", (char*) (tmpBuf+3));
                     ledTagWasRead(DELAY_TAG_READ_MS);
                     delay(DELAY_AFTER_READ_MS);
                 }
