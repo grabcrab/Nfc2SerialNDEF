@@ -1,0 +1,33 @@
+1. ESP32-C3 Module:
+https://www.amazon.com/ESP32-C3-Development-Bluetooth-Microcontrollers-Compatible/dp/B0BWN14X65/ref=sr_1_6?crid=1HRY69WNJPW4Q&dib=eyJ2IjoiMSJ9.1zuEpEPDkAdJqasyk8ZOP2axP9WnaxQsHx9MLEBo1yfOsHtdOjMaA2w1mDSR_LH-vG_nzs2ENytujIlGuHnsXJsel80pg_oSt6AThr1kaAdwFJzWvtr77mIkjkgYkpAdNE5UW6RdCjjNcHKJCqT0NZX86YgF5khGWwzHbRZX2ujnUEobiaC0-fC-QOc6ecAy2gbU9MlHacpUtCKYzjjT6mRU2V6QkDwHvodBbiJ00-o.0Bt5sGbG_VQOZrvvvW69SuVsECMek7mHgI77yJP8q5w&dib_tag=se&keywords=esp32-c3&qid=1708410523&sprefix=esp32-c3%2Caps%2C169&sr=8-6&th=1
+
+I propose to use this "blue" one: pins aren't soldered, and it has USB-C connector and the full set of pins.
+
+There is one issue here. I have a bit different ESP32-C3 board. This is not an issue for development, but I can't check the design 3d model of the enclosure. In this case I can do the initial design, and then we can update it after testing with the real PCB.
+
+2. PN532 NFC Module ("Red"):
+https://www.amazon.com/HiLetgo-Communication-Arduino-Raspberry-Android/dp/B01I1J17LC/ref=sr_1_1?crid=3EJLF2HYU7MS3&dib=eyJ2IjoiMSJ9.uigfMxatH6rwLT3rzshLlaNpf6AF2W3noV7kVmK8SfTjp21Ukx38TIkFhZc1sYgTkY4b7VIUgKaj9-CRoZZU6LAHvQLmboLFSNs54C5Nl-inPfYzrXfUsE3otY6e1FrBKxUkTcbxKGSVMDsiIT8zIzmVF_fjZA6AeC2fJfHN1SHVjAOfKRps6NOGq7oGgSWZNM811xyoQKjR0VxVmH7BdUOh5Bd0SXeRiV06hpxjVSc.y7vhredrNN9TqU5nrFQ3nOf8SeMvHP_twVGVN8rdixI&dib_tag=se&keywords=pn532+nfc+module&qid=1708410057&sprefix=pn532%2Caps%2C171&sr=8-1
+
+If I remember right, you've already ordered it.
+
+
+3. RGB LED Module:
+I found only this offer on Amazon, 10pcs for $10:
+https://www.amazon.com/DIYables-Module-Arduino-ESP8266-Raspberry/dp/B0BXKMGSG6/ref=sr_1_1?dib=eyJ2IjoiMSJ9.1Yrepup7QAKEYQaSDYxKOEahswFqZNWIJ9UzH8Jl2x-Zh17Eg-S0nyE0rE7ny7EI8DQ5Y91pL5aYRM-CEJTTn0fAXnqauOFIg_M0xlW5I1hNFIUyJgLknsqCP4q27c2X9Pp_Mpu7asVIPtWmcTU8XRmq3PvJcLSPj2ZALBVtTmQxPVyBOMQFXmXboG7sQU2wdPdA46KpI94NCE3W2Tj4-DBQ0W7bMs4sLo8WQOIu2H0.uSMAF_I-ObpQ7aqmhSBEeCxEWgTNpsoywmx1HjKgWGE&dib_tag=se&keywords=rgb+led+arduino&qid=1708409520&sr=8-1
+
+You may order it anywhere, the only this to pay attention on: it should be with a common cathode (and it should be a module, not just an LED).
+
+
+4. Passive Buzzer:
+https://www.amazon.com/Gumps-grocery-3-5-5-5V-Standard-Passive/dp/B081YBFJY8/ref=sr_1_6?crid=3HO01EINDBY7K&dib=eyJ2IjoiMSJ9.HpcY84gH0569jQ1GFQ2c8zfdeuqREsH3qnzwrjIbz93_1IHGWpPiKHczcC6mvhNyYdphnh4Et5RGq2jXFHEdndDfyej5jyI_zIy4-yoROiAA_83TbAdkqOtDP8Hu_9iexSFMF22fgkaQ33X_ic2QPWgefPXthcJRIXm46BJpGPVfnSazBUP8etjTffEk5i4xqKRE9Axpozml3MAFjWRfY2YplPcqiJh_qu1q6b9GR_Q.bXOsIZxGeyyMpVMKq7j5sbU-BKZZHmNlihGmhPHQ7TQ&dib_tag=se&keywords=passive+buzzer+arduino&qid=1708409815&sprefix=passive+buzzer+arduino%2Caps%2C160&sr=8-6
+
+I have this model of the buzzer, so it's better to order the same.
+
+5. Wires (30AWG):
+https://www.amazon.com/Fermerry-Silicone-Electrical-Cables-Stranded/dp/B089D2B6T6/ref=sr_1_1?crid=17DFUQ7RWGC3E&dib=eyJ2IjoiMSJ9.nrnMdF2EP5AOdsse2U9mb0Cy43sRiF96wM2iRtjbFCHMm72NIS6JngbPhQgKvCyAhtbUTZN5F3z6VaDzF99S99EPehse0b7-Y-u7mVeQHQ8dMZ8D1TvVxkVZSyChWAYoRwGo0lTnkKOm95ytnkB3Zwl2KcgANpK0ayCtRcBd_OpNNR-Ikv9sltuQ_EW_c3gmZDO8LOeFiAlrTTUnox8oDeLz-SPZgc4aHEnvc-A3ow9Z68dIr1lzn6p6YztleO8xFlEk3bmUNV14SBv-YN96GWWm47iDySlhD2JeHpQGacA.Uu_Vkn5L9tX7II0khuG2pO6uY2ZOVisGBsI40tSjP9o&dib_tag=se&keywords=30AWG&qid=1708413288&sprefix=30awg%2Caps%2C173&sr=8-1
+
+
+6. USB Type-C cable (soft textile is better):
+https://www.amazon.com/s?k=USB+Type-C+cable&crid=1OEUFSW00Y71S&sprefix=usb+type-c+cable%2Caps%2C168&ref=nb_sb_noss_1
+
+
